@@ -1,0 +1,8 @@
+runs/
+.worktrees/
+.triage/
+config.json
+tasks/*-auto.json
+tasks/*.json
+!tasks/*.example.json
+escalations/

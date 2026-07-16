@@ -1,0 +1,9 @@
+[
+  {
+    "id": "example-task",
+    "title": "One-line title",
+    "goal": "A precise, self-contained build instruction (exact versions/APIs/files).",
+    "verify": "pnpm install --frozen-lockfile && pnpm run check && pnpm test && pnpm build",
+    "done": "Concrete pass condition (tests green, build exits 0, scope limited to X)."
+  }
+]

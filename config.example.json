@@ -1,0 +1,10 @@
+{
+  "my-project": {
+    "repo": "/absolute/path/to/your/checkout",
+    "remote": "your-org/your-repo",
+    "package_manager": "pnpm",
+    "verify": "pnpm install --frozen-lockfile && pnpm run check && pnpm test && pnpm build",
+    "test_pass_regex": "Tests +([0-9]+) passed",
+    "backlog": "todo.md"
+  }
+}
